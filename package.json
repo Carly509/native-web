@@ -5,10 +5,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject",
-    "build": "expo build:web",
-        "debug-prod": "expo build:web && npx serve ./web-build",
-        "now-build": "yarn build && expo-optimize"
+    "eject": "expo eject"
   },
   "dependencies": {
     "@react-navigation/web": "^1.0.0-alpha.9",

@@ -14,7 +14,7 @@ export default class Profile extends React.Component {
         return <View style={styles.container}>
             <Text>This is the Profile screen</Text>
             {
-                !isWeb ?
+                isWeb ?
               <Button
                     title="Go to Feed"
                     onPress={() => this.props.navigation.navigate('Feed')}

@@ -51,7 +51,7 @@ style={styles.contain}
 placeholder="Email"
 />
             {
-                                !isWeb ?
+                                isWeb ?
                 <Button
                     title="Go to Profile"
                     onPress={() => this.props.navigation.navigate('Profile')}
